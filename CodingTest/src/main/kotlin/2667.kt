@@ -34,7 +34,7 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     list.forEach{i -> println(i)}
 }
 
-fun dfs(x:Int, y:Int){
+private fun dfs(x:Int, y:Int){
     visited[x][y] = 1
     count++
     for(i in 0 until 4) {
