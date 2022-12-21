@@ -2,8 +2,8 @@ import java.io.*
 import java.util.Arrays
 
 private lateinit var map: Array<Array<Int>>
-var M = 0
-var N = 0
+private var M = 0
+private var N = 0
 
 private val dx = arrayOf(0,1,0,-1)
 private val dy = arrayOf(1,0,-1,0)

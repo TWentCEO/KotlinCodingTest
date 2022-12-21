@@ -1,5 +1,4 @@
 import java.io.*
-import java.util.Arrays
 
 private lateinit var node: Array<Array<Int>>
 private lateinit var visited: BooleanArray
