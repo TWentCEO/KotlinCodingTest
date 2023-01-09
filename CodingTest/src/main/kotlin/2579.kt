@@ -17,5 +17,5 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
 
 private fun bottomUp(n: Int) {
     if (n == 1 || n == 0) max = arr[n]
-    max = arr[]
+//    max = arr[]
 }
